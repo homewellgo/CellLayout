@@ -47,7 +47,8 @@ class TweetsController: UITableViewController {
         cell.nameLabel.text = tweet.name
         cell.timeLabel.text = tweet.time
         cell.tweetLabel.text = tweet.tweet
-        
+        cell.categoryLabel.text = tweet.category
+    
         cell.tweetImageView.isHidden = true
         if let image = tweet.tweetImage {
             cell.tweetImageView.isHidden = false

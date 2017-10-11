@@ -16,6 +16,7 @@
 		5FC3DFBB1F8DEC4600979941 /* TweetsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC3DFBA1F8DEC4600979941 /* TweetsController.swift */; };
 		5FC3DFBD1F8DEC5600979941 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC3DFBC1F8DEC5600979941 /* TweetCell.swift */; };
 		5FC3DFBF1F8DEC6300979941 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC3DFBE1F8DEC6300979941 /* Tweet.swift */; };
+		5FC3DFC11F8DED2200979941 /* TweetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FC3DFC01F8DED2200979941 /* TweetCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5FC3DFBA1F8DEC4600979941 /* TweetsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetsController.swift; sourceTree = "<group>"; };
 		5FC3DFBC1F8DEC5600979941 /* TweetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
 		5FC3DFBE1F8DEC6300979941 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		5FC3DFC01F8DED2200979941 /* TweetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			children = (
 				5FC3DFBA1F8DEC4600979941 /* TweetsController.swift */,
 				5FC3DFBC1F8DEC5600979941 /* TweetCell.swift */,
+				5FC3DFC01F8DED2200979941 /* TweetCell.xib */,
 				5FC3DFBE1F8DEC6300979941 /* Tweet.swift */,
 			);
 			name = CellLayout;
@@ -257,6 +260,7 @@
 				5FC3DF931F8DEB3F00979941 /* LaunchScreen.storyboard in Resources */,
 				5FC3DF901F8DEB3F00979941 /* Assets.xcassets in Resources */,
 				5FC3DF8E1F8DEB3F00979941 /* Main.storyboard in Resources */,
+				5FC3DFC11F8DED2200979941 /* TweetCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
